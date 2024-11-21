@@ -1,0 +1,18 @@
+messages:
+  pressSpace: "Press space to speak."
+  loadingModel: "Loading Model"
+  noAudioInput: "Error: No audio input."
+
+whisperRecognition:
+  modelPath: "large-v3"
+  lang: "en"
+
+ollama:
+  url: "http://localhost:11434/api/generate"
+  model: "llama2"
+
+conversation:
+  context: "This conversation is entirely in english."
+  greeting: "Greetings."
+  recognitionWaitMsg: "Yes."
+  llmWaitMsg: "Thinking."                       
